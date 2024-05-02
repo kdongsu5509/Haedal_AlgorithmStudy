@@ -14,7 +14,7 @@ def count_problem_source_code():
     idx = 0
     for x in range(len(directory_list)): # 현재 디렉토리에 있는 디렉토리 리스트를 하나씩 가져온다. _ 구분은 이름으로 한다.
         directory = directory_list[x]
-        code_list = os.listdir(f"{directory}")
+        code_list = os.listdir(f"./{directory}")
         code_list = [name.replace('.py', "").replace('.java', "").replace('.cs', "") for name in code_list if name.endswith(".py") or name.endswith(".java") or name.endswith(".cs")]
 
         ps_code_list[idx] += code_list

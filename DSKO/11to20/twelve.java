@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-class Solution {
+class twelve {
     public int[] solution(int[] prices) {
         Stack<int[]> st = new Stack<>();
         int[] time = new int[prices.length];

@@ -10,36 +10,43 @@
     <th>   총 해결한 문제 수   </th>
     <th>   총 작성한 코드 수   </th>
     <th>   남은 개수  </th>
+    <th>   언어별 통계   </th>
   <tr>
         <td> 고동수 </td>
-        <td> 1 </td>
         <td> 3 </td>
-        <td> 99 </td>
+        <td> 6 </td>
+        <td> 97 </td>
+        <td> Python : 0 Java : 0 C : 0 <br> C++ : 0 C# : 0</td>
     </tr>  <tr>
         <td> 김민승 </td>
         <td> 0 </td>
         <td> 0 </td>
         <td> 100 </td>
+        <td> Python : 0 Java : 0 C : 0 <br> C++ : 0 C# : 0</td>
     </tr>  <tr>
         <td> 남현호 </td>
         <td> 0 </td>
         <td> 0 </td>
         <td> 100 </td>
+        <td> Python : 0 Java : 0 C : 0 <br> C++ : 0 C# : 0</td>
     </tr>  <tr>
         <td> 류정민 </td>
         <td> 0 </td>
         <td> 0 </td>
         <td> 100 </td>
+        <td> Python : 0 Java : 0 C : 0 <br> C++ : 0 C# : 0</td>
     </tr>  <tr>
         <td> 이창석 </td>
         <td> 0 </td>
         <td> 0 </td>
         <td> 100 </td>
+        <td> Python : 0 Java : 0 C : 0 <br> C++ : 0 C# : 0</td>
     </tr>  <tr>
         <td> 최수연 </td>
         <td> 0 </td>
         <td> 0 </td>
         <td> 100 </td>
+        <td> Python : 0 Java : 0 C : 0 <br> C++ : 0 C# : 0</td>
     </tr></table>
 
 # 업로드 방법

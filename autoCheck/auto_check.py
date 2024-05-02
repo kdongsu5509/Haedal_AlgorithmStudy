@@ -106,7 +106,7 @@ def make_read_me(code_cnt_info, total_code_num, language_cnt):
 def update_readme_md():
     code_cnt_info, total_code_num, language_cnt = count_problem_source_code() #반환은 list로 받는다.
 
-    readme = make_read_me(code_cnt_info, total_code_num)
+    readme = make_read_me(code_cnt_info, total_code_num, language_cnt)
 
     return readme
 

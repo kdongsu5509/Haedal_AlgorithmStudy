@@ -21,7 +21,7 @@ def count_problem_source_code():
             inner = innerfile[y]
             code_list_in = os.listdir(f"./{directory}/{inner}")
             for name in code_list_in:
-                if name != 'readOrNot.md' and re.match(r'\d+\.', name):
+                if name != 'readOrNot.md':
                     code_list.append(name)
 
         python_cnt = 0

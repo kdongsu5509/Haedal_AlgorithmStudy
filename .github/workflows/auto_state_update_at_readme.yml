@@ -25,6 +25,6 @@ jobs:
           git add .
           git diff
           git config user.name "kdongsu5509"
-          git config user.email "kod6170@gamil.com"
+          git config user.email "kdongsu5509@gamil.com"
           git commit -m "Auto Update README.md file"
           git push

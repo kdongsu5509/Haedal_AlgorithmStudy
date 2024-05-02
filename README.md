@@ -7,15 +7,15 @@
 ## 참여자 별 현황 한 눈에 보기
 <table>
     <th>   이름   </th>
-    <th>   총 해결한 문제 수   </th>
-    <th>   총 작성한 코드 수   </th>
+    <th>   해결한 문제   </th>
+    <th>   작성한 파일  </th>
     <th>   남은 개수  </th>
     <th>   언어별 통계   </th>
   <tr>
         <td> 고동수 </td>
-        <td> 1 </td>
-        <td> 1 </td>
-        <td> 99 </td>
+        <td> 0 </td>
+        <td> 0 </td>
+        <td> 100 </td>
         <td> Python : 0&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 김민승 </td>

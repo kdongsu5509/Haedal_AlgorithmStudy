@@ -13,7 +13,7 @@
   <tr>
         <td> 고동수 </td>
         <td> 1 </td>
-        <td> 2 </td>
+        <td> 3 </td>
         <td> 99 </td>
     </tr>  <tr>
         <td> 김민승 </td>
@@ -55,3 +55,12 @@
 -     `git commit -m "message"` //메세지를 추가하여 커밋합니다.
 -     `git push` // 깃허브에 업로드 합니다
 - 위의 방법대로 업로드 하지 않을 경우 README.md가 정상 업데이트 되지 않으니 다들 부탁드려요~
+
+
+# 최초 사용
+- 본인의 컴퓨터에서 "Git Bash"를 실행합니다.
+- `git clone "https://github.com/kdongsu5509/Haedal_AlgorithmStudy.git"`을 입력하여 저장소를 복제합니다.
+- 복제가 완료되면 본인의 이름으로 된 폴더를 찾아 들어갑니다.
+- 본인의 이름으로 된 폴더 안에 자신의 코드를 업로드 합니다.
+- 업로드가 완료되면 `git add .` -> `git commit -m "message"` -> `git push`를 통해 업로드 합니다.
+- *업로드가 완료되면 자동으로 해당 주차의 README.md 파일을 업데이트 됩니다.*

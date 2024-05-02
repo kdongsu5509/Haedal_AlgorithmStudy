@@ -23,10 +23,11 @@ def count_problem_source_code():
 
         # 각 학생별로 제출한 코드의 개수를 저장할 리스트입니다.
         code_cnt_info = []
+        total_code_cnt = []
+
         for i in range(6):
             code_cnt_info.append(len(ps_code_list[i]))
 
-        total_code_cnt = []
         for i in range(6):
             temp_set = set(ps_code_list[i])
             total_code_cnt.append(len(temp_set))
@@ -71,8 +72,8 @@ def make_read_me(code_cnt_info, total_code_num):
     for i in range(6):
         table_info += f"""  <tr>
         <td> {name_list[i]} </td>
-        <td> {code_cnt_info[i]} </td>
         <td> {total_code_num[i]} </td>
+        <td> {code_cnt_info[i]} </td>
         <td> {100 - code_cnt_info[i]} </td>
     </tr>"""
         

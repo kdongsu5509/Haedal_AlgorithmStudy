@@ -12,9 +12,9 @@
     <th>   남은 개수  </th>
   <tr>
         <td> 고동수 </td>
-        <td> 2 </td>
         <td> 1 </td>
-        <td> 98 </td>
+        <td> 3 </td>
+        <td> 97 </td>
     </tr>  <tr>
         <td> 김민승 </td>
         <td> 0 </td>

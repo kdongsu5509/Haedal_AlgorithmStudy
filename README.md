@@ -14,9 +14,9 @@
   <tr>
         <td> 고동수 </td>
         <td> 16 </td>
-        <td> 21 </td>
+        <td> 16 </td>
         <td> 84 </td>
-        <td> Python : 16&nbsp&nbsp&nbsp&nbspJava : 5&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+        <td> Python : 16&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 김민승 </td>
         <td> 0 </td>

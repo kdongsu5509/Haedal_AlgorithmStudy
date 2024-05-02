@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Solution {
+public class sixteen {
     public static List<Integer> solution(int[] progresses, int[] speeds) {
         Deque<Integer> pr = new LinkedList<>();
         Deque<Integer> sp = new LinkedList<>();

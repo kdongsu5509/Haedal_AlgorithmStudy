@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-class Solution {
+class ten {
     public int solution(String s) {
         int cnt = 0;
 

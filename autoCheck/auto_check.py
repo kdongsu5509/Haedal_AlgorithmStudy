@@ -57,8 +57,8 @@ def make_read_me(code_cnt_info, total_code_num, language_cnt):
 ## 참여자 별 현황 한 눈에 보기
 <table>
     <th>   이름   </th>
-    <th>   총 해결한 문제 수   </th>
-    <th>   총 작성한 코드 수   </th>
+    <th>   해결한 문제   </th>
+    <th>   작성한 파일  </th>
     <th>   남은 개수  </th>
     <th>   언어별 통계   </th>
 """

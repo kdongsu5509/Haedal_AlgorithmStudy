@@ -45,13 +45,17 @@ def count_problem_source_code():
                 cpp_cnt += 1
 
             # 파일 이름에서 확장자를 제거합니다.
-            code_list[i] = temp.replace('.py', "").replace('.java', "").replace('.cs', "").replace('.c', "").replace('.cpp', "")
         language_cnt.append([python_cnt, java_cnt, c_cnt, cpp_cnt, csharp_cnt])
 
         # 각 학생별로 제출한 코드의 개수를 저장할 리스트입니다.
         code_cnt_info.append(len(code_list))
         # 중복된 코드를 제거합니다.
-        temp_set = set(code_list)
+
+        temp_code_list = []
+        for i in range(len(code_list)):
+            if re.match(r'\d+\.', code_list[i]):
+                temp_code_list.append(code_list[i].replace('.py', "").replace('.java', "").replace('.cs', "").replace('.c', "").replace('.cpp', ""))
+        temp_set = set(temp_code_list)
         # 중복된 코드를 제거한 개수를 저장합니다.
         total_code_cnt.append(len(temp_set))
 

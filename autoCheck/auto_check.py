@@ -71,7 +71,7 @@ def make_read_me(code_cnt_info, total_code_num, language_cnt):
         <td> {total_code_num[i]} </td>
         <td> {code_cnt_info[i]} </td>
         <td> {100 - total_code_num[i]} </td>
-        <td> Python : {language_cnt[i][0]} Java : {language_cnt[i][1]} C : {language_cnt[i][2]} <br> C++ : {language_cnt[i][3]} C# : {language_cnt[i][4]}</td>
+        <td> Python : {language_cnt[i][0]}     Java : {language_cnt[i][1]}     C : {language_cnt[i][2]}       C++ : {language_cnt[i][3]}       C# : {language_cnt[i][4]}</td>
     </tr>"""
         
     base2 = f"""</table>

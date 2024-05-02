@@ -15,7 +15,7 @@ def count_problem_source_code():
     for x in range(len(directory_list)): # 현재 디렉토리에 있는 디렉토리 리스트를 하나씩 가져온다. _ 구분은 이름으로 한다.
         directory = directory_list[x]
         code_list = os.listdir(f"./{directory}")
-        code_list = [name for name in code_list if "Hello" not in name]
+        code_list = [name for name in code_list if "Hello" not in name and re.match(r'\d+\.', name)]
         code_list = [name.replace('.py', "").replace('.java', "").replace('.cs', "") for name in code_list if name.endswith(".py") or name.endswith(".java") or name.endswith(".cs")]
 
         ps_code_list[idx] += code_list
@@ -91,7 +91,17 @@ def make_read_me(code_cnt_info, total_code_num):
 -     `git add .` // 본인 컴퓨터에 있는 파일을 로컬 Git에 업로드 합니다.
 -     `git commit -m "message"` //메세지를 추가하여 커밋합니다.
 -     `git push` // 깃허브에 업로드 합니다
-- 위의 방법대로 업로드 하지 않을 경우 README.md가 정상 업데이트 되지 않으니 다들 부탁드려요~"""
+- 위의 방법대로 업로드 하지 않을 경우 README.md가 정상 업데이트 되지 않으니 다들 부탁드려요~
+
+
+# 최초 사용
+- 본인의 컴퓨터에서 "Git Bash"를 실행합니다.
+- `git clone "https://github.com/kdongsu5509/Haedal_AlgorithmStudy.git"`을 입력하여 저장소를 복제합니다.
+- 복제가 완료되면 본인의 이름으로 된 폴더를 찾아 들어갑니다.
+- 본인의 이름으로 된 폴더 안에 자신의 코드를 업로드 합니다.
+- 업로드가 완료되면 `git add .` -> `git commit -m "message"` -> `git push`를 통해 업로드 합니다.
+- *업로드가 완료되면 자동으로 해당 주차의 README.md 파일을 업데이트 됩니다.*
+"""
 
     return base1 + table_info + base2
 

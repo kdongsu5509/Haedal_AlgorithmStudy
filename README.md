@@ -13,10 +13,17 @@
     <th>   언어별 통계   </th>
   <tr>
         <td> 고동수 </td>
+<<<<<<< HEAD
         <td> 13 </td>
         <td> 15 </td>
         <td> 87 </td>
         <td> Python : 13&nbsp&nbsp&nbsp&nbspJava : 2&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+=======
+        <td> 0 </td>
+        <td> 0 </td>
+        <td> 100 </td>
+        <td> Python : 0&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+>>>>>>> a637130b7318143d531aa06afa107ae868ad51e0
     </tr>  <tr>
         <td> 김민승 </td>
         <td> 0 </td>
@@ -31,10 +38,17 @@
         <td> Python : 0&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 류정민 </td>
+<<<<<<< HEAD
         <td> 1 </td>
         <td> 1 </td>
         <td> 99 </td>
         <td> Python : 1&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+=======
+        <td> 0 </td>
+        <td> 0 </td>
+        <td> 100 </td>
+        <td> Python : 0&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+>>>>>>> a637130b7318143d531aa06afa107ae868ad51e0
     </tr>  <tr>
         <td> 이창석 </td>
         <td> 0 </td>

@@ -17,6 +17,9 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
+      - name: Change working directory
+        run: cd Haedal_algorithmstrudy
+        working-directory: ./Haedal_algorithmstrudy
       - name: Run Update Python Script
         run: |
           python autoCheck/auto_check.py

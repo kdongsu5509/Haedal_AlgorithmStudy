@@ -11,23 +11,36 @@ def count_problem_source_code():
     # 현재 디렉토리에 있는 디렉토리 리스트를 가져온다.
     directory_list = ['DSKO', 'MSKIM', 'HHNAM', 'JMRYU', 'CSLEE', 'SYCHOI']
 
-    idx = 0
     for x in range(len(directory_list)): # 현재 디렉토리에 있는 디렉토리 리스트를 하나씩 가져온다. _ 구분은 이름으로 한다.
         directory = directory_list[x]
         code_list = os.listdir(f"./{directory}")
         code_list = [name for name in code_list if "Hello" not in name and re.match(r'\d+\.', name)]
         
+        python_cnt = 0
+        java_cnt = 0
+        csharp_cnt = 0
+        c_cnt = 0
+        cpp_cnt = 0
         #확장자 삭제 전 언어별 통계 정보를 저장할 변수를 선언합니다.
-        python_cnt = code_list.count('.py')
-        java_cnt = code_list.count('.java')
-        csharp_cnt = code_list.count('.cs')
-        c_cnt = code_list.count('.c')
-        cpp_cnt = code_list.count('.cpp')
+        for i in range(len(code_list)):
+            # 파일 이름에서 확장자에 따라 언어별로 카운트를 합니다.
+            temp = code_list[i]
+            if temp.endswith(".py"):
+                python_cnt += 1
+            elif temp.endswith(".java"):
+                java_cnt += 1
+            elif temp.endswith(".cs"):
+                csharp_cnt += 1
+            elif temp.endswith(".c"):
+                c_cnt += 1
+            elif temp.endswith(".cpp"):
+                cpp_cnt += 1
+
+            # 파일 이름에서 확장자를 제거합니다.
+            code_list[i] = temp.replace('.py', "").replace('.java', "").replace('.cs', "").replace('.c', "").replace('.cpp', "")
 
         code_list = [name.replace('.py', "").replace('.java', "").replace('.cs', "").replace('.c', "").replace('.cpp', "") for name in code_list if name.endswith(".py") or name.endswith(".java") or name.endswith(".cs") or name.endswith(".c") or name.endswith(".cpp")]
 
-        ps_code_list[idx] += code_list
-        idx+=1
 
         # 각 학생별로 제출한 코드의 개수를 저장할 리스트입니다.
         code_cnt_info = []

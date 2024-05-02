@@ -74,7 +74,7 @@ def make_read_me(code_cnt_info, total_code_num):
         <td> {name_list[i]} </td>
         <td> {total_code_num[i]} </td>
         <td> {code_cnt_info[i]} </td>
-        <td> {100 - code_cnt_info[i]} </td>
+        <td> {100 - total_code_num[i]} </td>
     </tr>"""
         
     base2 = f"""</table>

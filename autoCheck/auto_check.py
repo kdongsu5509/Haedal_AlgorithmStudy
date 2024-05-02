@@ -16,7 +16,15 @@ def count_problem_source_code():
         directory = directory_list[x]
         code_list = os.listdir(f"./{directory}")
         code_list = [name for name in code_list if "Hello" not in name and re.match(r'\d+\.', name)]
-        code_list = [name.replace('.py', "").replace('.java', "").replace('.cs', "") for name in code_list if name.endswith(".py") or name.endswith(".java") or name.endswith(".cs")]
+        
+        #확장자 삭제 전 언어별 통계 정보를 저장할 변수를 선언합니다.
+        python_cnt = code_list.count('.py')
+        java_cnt = code_list.count('.java')
+        csharp_cnt = code_list.count('.cs')
+        c_cnt = code_list.count('.c')
+        cpp_cnt = code_list.count('.cpp')
+
+        code_list = [name.replace('.py', "").replace('.java', "").replace('.cs', "").replace('.c', "").replace('.cpp', "") for name in code_list if name.endswith(".py") or name.endswith(".java") or name.endswith(".cs") or name.endswith(".c") or name.endswith(".cpp")]
 
         ps_code_list[idx] += code_list
         idx+=1
@@ -24,34 +32,21 @@ def count_problem_source_code():
         # 각 학생별로 제출한 코드의 개수를 저장할 리스트입니다.
         code_cnt_info = []
         total_code_cnt = []
+        language_cnt = []
+
+        
+
 
         for i in range(6):
             code_cnt_info.append(len(ps_code_list[i]))
-
-        for i in range(6):
             temp_set = set(ps_code_list[i])
             total_code_cnt.append(len(temp_set))
-    return code_cnt_info, total_code_cnt
+            language_cnt.append([python_cnt, java_cnt, c_cnt, cpp_cnt, csharp_cnt])
 
-
-# README.md 파일을 업데이트할 때 사용할 문구를 만드는 함수입니다.
-def make_count_info(total_code_num, code_cnt_info):
-    name_list = ['고동수', '김민승', '남현호', '류정민', '이창석', '최수연']
-
-    info_list = [] # 각 학생별 정보를 저장할 리스트입니다.
-    for i in range(6):
-        temp_str = f"{name_list[i]}님{code_cnt_info[i]}개"
-    count_info = f"#### {name}님이 현재까지 해결한 총 문제 수 : {total_code_num}개\n"
-    code_info = f"#### {name}님이 현재까지 작성한 총 코드 수 : {total_code_num}개\n"
-
-    for name in code_cnt_info:
-        temp = f"- {name[0]} - {name[1]}개\n"
-        count_info += temp
-
-    return count_info
+    return code_cnt_info, total_code_cnt, language_cnt
 
 # README.md 파일을 업데이트하는 함수입니다.
-def make_read_me(code_cnt_info, total_code_num):
+def make_read_me(code_cnt_info, total_code_num, language_cnt):
     name_list = ['고동수', '김민승', '남현호', '류정민', '이창석', '최수연']
     base1 = f"""## 📚2024-1 해달 알고리즘 스터디!📚
 - 2024년 7월 31일까지 100문제를 모두 해결하는 것을 목표로 합니다.
@@ -65,6 +60,7 @@ def make_read_me(code_cnt_info, total_code_num):
     <th>   총 해결한 문제 수   </th>
     <th>   총 작성한 코드 수   </th>
     <th>   남은 개수  </th>
+    <th>   언어별 통계   </th>
 """
     
 
@@ -75,6 +71,7 @@ def make_read_me(code_cnt_info, total_code_num):
         <td> {total_code_num[i]} </td>
         <td> {code_cnt_info[i]} </td>
         <td> {100 - total_code_num[i]} </td>
+        <td> Python : {language_cnt[i][0]} Java : {language_cnt[i][1]} C : {language_cnt[i][2]} <br> C++ : {language_cnt[i][3]} C# : {language_cnt[i][4]}</td>
     </tr>"""
         
     base2 = f"""</table>
@@ -107,7 +104,7 @@ def make_read_me(code_cnt_info, total_code_num):
 
 # README.md 파일을 업데이트하는 함수입니다.
 def update_readme_md():
-    code_cnt_info, total_code_num = count_problem_source_code() #반환은 list로 받는다.
+    code_cnt_info, total_code_num, language_cnt = count_problem_source_code() #반환은 list로 받는다.
 
     readme = make_read_me(code_cnt_info, total_code_num)
 

@@ -13,10 +13,10 @@
     <th>   언어별 통계   </th>
   <tr>
         <td> 고동수 </td>
-        <td> 18 </td>
-        <td> 25 </td>
-        <td> 82 </td>
-        <td> Python : 18&nbsp&nbsp&nbsp&nbspJava : 7&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+        <td> 23 </td>
+        <td> 33 </td>
+        <td> 77 </td>
+        <td> Python : 23&nbsp&nbsp&nbsp&nbspJava : 10&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 김민승 </td>
         <td> 0 </td>

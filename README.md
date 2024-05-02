@@ -13,40 +13,40 @@
     <th>   언어별 통계   </th>
   <tr>
         <td> 고동수 </td>
-        <td> 3 </td>
-        <td> 6 </td>
-        <td> 97 </td>
-        <td> Python : 0 Java : 0 C : 0 <br> C++ : 0 C# : 0</td>
+        <td> 0 </td>
+        <td> 0 </td>
+        <td> 100 </td>
+        <td> Python : 0     Java : 0     C : 0       C++ : 0       C# : 0</td>
     </tr>  <tr>
         <td> 김민승 </td>
         <td> 0 </td>
         <td> 0 </td>
         <td> 100 </td>
-        <td> Python : 0 Java : 0 C : 0 <br> C++ : 0 C# : 0</td>
+        <td> Python : 0     Java : 0     C : 0       C++ : 0       C# : 0</td>
     </tr>  <tr>
         <td> 남현호 </td>
         <td> 0 </td>
         <td> 0 </td>
         <td> 100 </td>
-        <td> Python : 0 Java : 0 C : 0 <br> C++ : 0 C# : 0</td>
+        <td> Python : 0     Java : 0     C : 0       C++ : 0       C# : 0</td>
     </tr>  <tr>
         <td> 류정민 </td>
         <td> 0 </td>
         <td> 0 </td>
         <td> 100 </td>
-        <td> Python : 0 Java : 0 C : 0 <br> C++ : 0 C# : 0</td>
+        <td> Python : 0     Java : 0     C : 0       C++ : 0       C# : 0</td>
     </tr>  <tr>
         <td> 이창석 </td>
         <td> 0 </td>
         <td> 0 </td>
         <td> 100 </td>
-        <td> Python : 0 Java : 0 C : 0 <br> C++ : 0 C# : 0</td>
+        <td> Python : 0     Java : 0     C : 0       C++ : 0       C# : 0</td>
     </tr>  <tr>
         <td> 최수연 </td>
         <td> 0 </td>
         <td> 0 </td>
         <td> 100 </td>
-        <td> Python : 0 Java : 0 C : 0 <br> C++ : 0 C# : 0</td>
+        <td> Python : 0     Java : 0     C : 0       C++ : 0       C# : 0</td>
     </tr></table>
 
 # 업로드 방법

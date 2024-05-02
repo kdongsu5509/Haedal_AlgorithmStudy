@@ -19,7 +19,7 @@ def count_problem_source_code():
         for y in range(len(innerfile)):
             directory = directory_list[x]
             inner = innerfile[y]
-            code_list_in = os.listdir(f"./{directory}./{inner}")
+            code_list_in = os.listdir(f"./{directory}/{inner}")
             for name in code_list_in:
                 if name != 'readOrNot.md' and re.match(r'\d+\.', name):
                     code_list.append(name)

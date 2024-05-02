@@ -10,7 +10,9 @@ def count_problem_source_code():
 
     # 현재 디렉토리에 있는 디렉토리 리스트를 가져온다.
     directory_list = ['DSKO', 'MSKIM', 'HHNAM', 'JMRYU', 'CSLEE', 'SYCHOI']
-
+    language_cnt = []
+    code_cnt_info = []
+    total_code_cnt = []
     for x in range(len(directory_list)): # 현재 디렉토리에 있는 디렉토리 리스트를 하나씩 가져온다. _ 구분은 이름으로 한다.
         directory = directory_list[x]
         code_list = os.listdir(f"./{directory}")
@@ -38,24 +40,17 @@ def count_problem_source_code():
 
             # 파일 이름에서 확장자를 제거합니다.
             code_list[i] = temp.replace('.py', "").replace('.java', "").replace('.cs', "").replace('.c', "").replace('.cpp', "")
-
-        code_list = [name.replace('.py', "").replace('.java', "").replace('.cs', "").replace('.c', "").replace('.cpp', "") for name in code_list if name.endswith(".py") or name.endswith(".java") or name.endswith(".cs") or name.endswith(".c") or name.endswith(".cpp")]
-
-
-        # 각 학생별로 제출한 코드의 개수를 저장할 리스트입니다.
-        code_cnt_info = []
-        total_code_cnt = []
-        language_cnt = []
-
+        language_cnt.append([python_cnt, java_cnt, c_cnt, cpp_cnt, csharp_cnt])
         
+        # 각 학생별로 제출한 코드의 개수를 저장할 리스트입니다.
+        code_cnt_info.append(len(code_list))
+        # 중복된 코드를 제거합니다.
+        temp_set = set(code_list)
+        # 중복된 코드를 제거한 개수를 저장합니다.
+        total_code_cnt.append(len(temp_set))
 
-
-        for i in range(6):
-            code_cnt_info.append(len(ps_code_list[i]))
-            temp_set = set(ps_code_list[i])
-            total_code_cnt.append(len(temp_set))
-            language_cnt.append([python_cnt, java_cnt, c_cnt, cpp_cnt, csharp_cnt])
-
+    print(code_cnt_info)
+    print(total_code_cnt)
     return code_cnt_info, total_code_cnt, language_cnt
 
 # README.md 파일을 업데이트하는 함수입니다.

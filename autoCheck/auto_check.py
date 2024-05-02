@@ -14,10 +14,16 @@ def count_problem_source_code():
     code_cnt_info = []
     total_code_cnt = []
     for x in range(len(directory_list)): # 현재 디렉토리에 있는 디렉토리 리스트를 하나씩 가져온다. _ 구분은 이름으로 한다.
-        directory = directory_list[x]
-        code_list = os.listdir(f"./{directory}")
-        code_list = [name for name in code_list if "Hello" not in name and re.match(r'\d+\.', name)]
-        
+        innerfile = ['1to10', '11to20', '21to30', '31to40', '41to50', '51to60', '61to70', '71to80', '81to90', '91to100']
+        code_list = []
+        for y in range(len(innerfile)):
+            directory = directory_list[x]
+            inner = innerfile[y]
+            code_list_in = os.listdir(f"./{directory}./{inner}")
+            for name in code_list_in:
+                if name != 'readOrNot.md' and re.match(r'\d+\.', name):
+                    code_list.append(name)
+
         python_cnt = 0
         java_cnt = 0
         csharp_cnt = 0
@@ -41,7 +47,7 @@ def count_problem_source_code():
             # 파일 이름에서 확장자를 제거합니다.
             code_list[i] = temp.replace('.py', "").replace('.java', "").replace('.cs', "").replace('.c', "").replace('.cpp', "")
         language_cnt.append([python_cnt, java_cnt, c_cnt, cpp_cnt, csharp_cnt])
-        
+
         # 각 학생별로 제출한 코드의 개수를 저장할 리스트입니다.
         code_cnt_info.append(len(code_list))
         # 중복된 코드를 제거합니다.
@@ -51,6 +57,7 @@ def count_problem_source_code():
 
     print(code_cnt_info)
     print(total_code_cnt)
+    print(language_cnt)
     return code_cnt_info, total_code_cnt, language_cnt
 
 # README.md 파일을 업데이트하는 함수입니다.

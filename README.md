@@ -13,9 +13,9 @@
     <th>   언어별 통계   </th>
   <tr>
         <td> 고동수 </td>
-        <td> 0 </td>
-        <td> 0 </td>
-        <td> 100 </td>
+        <td> 4 </td>
+        <td> 4 </td>
+        <td> 96 </td>
         <td> Python : 0&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 김민승 </td>

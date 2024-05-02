@@ -31,9 +31,9 @@
         <td> Python : 0&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 류정민 </td>
-        <td> 0 </td>
-        <td> 0 </td>
-        <td> 100 </td>
+        <td> 1 </td>
+        <td> 1 </td>
+        <td> 99 </td>
         <td> Python : 0&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 이창석 </td>

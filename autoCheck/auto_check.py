@@ -63,6 +63,7 @@ def count_problem_source_code():
                 cpp_cnt += 1
 
             # 파일 이름에서 확장자를 제거합니다.
+        
         language_cnt.append([python_cnt, java_cnt, c_cnt, cpp_cnt, csharp_cnt])
 
         # 각 학생별로 제출한 코드의 개수를 저장할 리스트입니다.
@@ -75,6 +76,8 @@ def count_problem_source_code():
                 temp_code_list.append(code_list[i].replace('.py', "").replace('.java', "").replace('.cs', "").replace('.c', "").replace('.cpp', ""))
         temp_set = set(temp_code_list)
         # 중복된 코드를 제거한 개수를 저장합니다.
+
+        ts_len = len(temp_set) if len(temp_set) <= 100 else 100
         total_code_cnt.append(len(temp_set))
 
     print(code_cnt_info)

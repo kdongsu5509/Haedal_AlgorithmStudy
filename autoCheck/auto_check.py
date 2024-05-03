@@ -10,8 +10,6 @@ def change_total_push_cnt():
             content = file.readline().strip()
             if content:
                 total_push_cnt = int(content)
-            else:
-                total_push_cnt = 0
             total_push_cnt += 1
             file.seek(0)
             file.write(str(total_push_cnt) + "\n")
@@ -114,6 +112,7 @@ def make_read_me(code_cnt_info, total_code_num, language_cnt, total_push_cnt=tot
     </tr>"""
         
     base2 = f"""</table>
+<br>
 ### 총 Push 횟수 : {total_push_cnt}회
 
 # 업로드 방법

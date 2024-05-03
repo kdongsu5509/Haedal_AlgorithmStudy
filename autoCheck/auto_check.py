@@ -114,7 +114,7 @@ def make_read_me(code_cnt_info, total_code_num, language_cnt, total_push_cnt):
         
     base2 = f"""</table>
 <br>
-**총 Push 횟수 : {total_push_cnt}회**
+총 Push 횟수 : {total_push_cnt}회
 
 # 업로드 방법
 ### 1. 파일명

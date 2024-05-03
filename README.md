@@ -11,53 +11,53 @@
     <th>   SOLVE   </th>
     <th>   FILE  </th>
     <th>   남은 개수  </th>
-    <th>   언어별 통계   </th>
     <th>   Money   </th>
+    <th>   언어별 통계   </th>
   <tr>
         <td> 고동수 </td>
         <td> 24 </td>
         <td> 34 </td>
         <td> 76 </td>
-        <td> 76000 </td>
+        <td> -76000 </td>
         <td> Python : 24&nbsp&nbsp&nbsp&nbspJava : 10&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 김민승 </td>
         <td> 4 </td>
         <td> 4 </td>
         <td> 96 </td>
-        <td> 96000 </td>
+        <td> -96000 </td>
         <td> Python : 4&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 남현호 </td>
         <td> 0 </td>
         <td> 0 </td>
         <td> 100 </td>
-        <td> 100000 </td>
+        <td> -100000 </td>
         <td> Python : 0&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 류정민 </td>
         <td> 1 </td>
         <td> 1 </td>
         <td> 99 </td>
-        <td> 99000 </td>
+        <td> -99000 </td>
         <td> Python : 1&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 이창석 </td>
         <td> 0 </td>
         <td> 0 </td>
         <td> 100 </td>
-        <td> 100000 </td>
+        <td> -100000 </td>
         <td> Python : 0&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 최수연 </td>
         <td> 4 </td>
         <td> 5 </td>
         <td> 96 </td>
-        <td> 96000 </td>
+        <td> -96000 </td>
         <td> Python : 5&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr></table>
 <br>
-총 Push 횟수 : 46회
+총 Push 횟수 : 47회
 
 # 업로드 방법
 ### 1. 파일명

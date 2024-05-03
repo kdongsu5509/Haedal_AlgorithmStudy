@@ -98,8 +98,8 @@ def make_read_me(code_cnt_info, total_code_num, language_cnt, total_push_cnt):
     <th>   SOLVE   </th>
     <th>   FILE  </th>
     <th>   남은 개수  </th>
-    <th>   언어별 통계   </th>
     <th>   Money   </th>
+    <th>   언어별 통계   </th>
 """
     
 
@@ -110,7 +110,7 @@ def make_read_me(code_cnt_info, total_code_num, language_cnt, total_push_cnt):
         <td> {total_code_num[i]} </td>
         <td> {code_cnt_info[i]} </td>
         <td> {100 - total_code_num[i]} </td>
-        <td> {(100 - total_code_num[i]) * 1000} </td>
+        <td> {-1 * (100 - total_code_num[i]) * 1000} </td>
         <td> Python : {language_cnt[i][0]}&nbsp&nbsp&nbsp&nbspJava : {language_cnt[i][1]}&nbsp&nbsp&nbsp&nbspC : {language_cnt[i][2]}&nbsp&nbsp&nbsp&nbsp&nbspC++ : {language_cnt[i][3]}&nbsp&nbsp&nbsp&nbsp&nbspC# : {language_cnt[i][4]}</td>
     </tr>"""
         

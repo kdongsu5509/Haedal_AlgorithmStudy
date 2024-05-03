@@ -3,8 +3,9 @@ from datetime import datetime
 import os
 import re
 
-total_push_cnt = 0
+
 def change_total_push_cnt():
+    total_push_cnt = 0
     try:
         with open("total_push_cnt.txt", 'r+') as file:
             content = file.readline().strip()
@@ -18,7 +19,7 @@ def change_total_push_cnt():
     except Exception as e:
         print("오류 발생:", e)
 
-
+    return total_push_cnt
 
 # 각자 해결한 문제의 개수와 제출한 파일의 개수를 세어서 리스트로 반환하는 함수입니다.
 def count_problem_source_code(): 
@@ -82,7 +83,7 @@ def count_problem_source_code():
     return code_cnt_info, total_code_cnt, language_cnt
 
 # README.md 파일을 업데이트하는 함수입니다.
-def make_read_me(code_cnt_info, total_code_num, language_cnt, total_push_cnt=total_push_cnt):
+def make_read_me(code_cnt_info, total_code_num, language_cnt, total_push_cnt):
     name_list = ['고동수', '김민승', '남현호', '류정민', '이창석', '최수연']
     base1 = f"""## 📚2024-1 해달 알고리즘 스터디!📚
 - 2024년 7월 31일까지 100문제를 모두 해결하는 것을 목표로 합니다.
@@ -146,15 +147,15 @@ def make_read_me(code_cnt_info, total_code_num, language_cnt, total_push_cnt=tot
 
 # README.md 파일을 업데이트하는 함수입니다.
 def update_readme_md():
+    total_push_cnt = change_total_push_cnt()
     code_cnt_info, total_code_num, language_cnt = count_problem_source_code() #반환은 list로 받는다.
 
-    readme = make_read_me(code_cnt_info, total_code_num, language_cnt)
+    readme = make_read_me(code_cnt_info, total_code_num, language_cnt, total_push_cnt)
 
     return readme
 
 
 if __name__ == "__main__":
     readme = update_readme_md()
-    change_total_push_cnt()
     with open("./README.md", 'w', encoding='utf-8') as f:
        f.write(readme)

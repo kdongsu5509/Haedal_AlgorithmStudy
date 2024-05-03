@@ -4,6 +4,7 @@
 - 벌금은 책걸이 행사 때 사용됩니다.
 <br><br><br>
 
+
 ## 참여자 별 현황 한 눈에 보기
 <table>
     <th>   이름   </th>
@@ -48,6 +49,7 @@
         <td> 99 </td>
         <td> Python : 1&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr></table>
+### 총 Push 횟수 : 0회
 
 # 업로드 방법
 ### 1. 파일명

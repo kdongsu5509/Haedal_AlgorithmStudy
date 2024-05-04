@@ -84,3 +84,5 @@
 - 본인의 이름으로 된 폴더 안에 자신의 코드를 업로드 합니다.
 - 업로드가 완료되면 `git add .` -> `git commit -m "message"` -> `git push`를 통해 업로드 합니다.
 - *업로드가 완료되면 자동으로 해당 주차의 README.md 파일을 업데이트 됩니다.*
+
+[[DailySolveCheck.md]]

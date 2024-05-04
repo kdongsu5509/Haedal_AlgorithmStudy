@@ -16,10 +16,10 @@
   <tr>
         <td> 고동수 </td>
         <td> 25 </td>
-        <td> 35 </td>
+        <td> 39 </td>
         <td> 75 </td>
         <td> -75000 </td>
-        <td> Python : 25&nbsp&nbsp&nbsp&nbspJava : 10&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+        <td> Python : 25&nbsp&nbsp&nbsp&nbspJava : 11&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 김민승 </td>
         <td> 4 </td>
@@ -57,7 +57,7 @@
         <td> Python : 5&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr></table>
 <br>
-총 Push 횟수 : 49회
+총 Push 횟수 : 50회
 
 # 업로드 방법
 ### 1. 파일명

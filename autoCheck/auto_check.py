@@ -63,6 +63,7 @@ def count_problem_source_code():
                 cpp_cnt += 1
 
             # 파일 이름에서 확장자를 제거합니다.
+        
         language_cnt.append([python_cnt, java_cnt, c_cnt, cpp_cnt, csharp_cnt])
 
         # 각 학생별로 제출한 코드의 개수를 저장할 리스트입니다.
@@ -75,6 +76,8 @@ def count_problem_source_code():
                 temp_code_list.append(code_list[i].replace('.py', "").replace('.java', "").replace('.cs', "").replace('.c', "").replace('.cpp', ""))
         temp_set = set(temp_code_list)
         # 중복된 코드를 제거한 개수를 저장합니다.
+
+        ts_len = len(temp_set) if len(temp_set) <= 100 else 100
         total_code_cnt.append(len(temp_set))
 
     print(code_cnt_info)
@@ -95,9 +98,10 @@ def make_read_me(code_cnt_info, total_code_num, language_cnt, total_push_cnt):
 ## 참여자 별 현황 한 눈에 보기
 <table>
     <th>   이름   </th>
-    <th>   해결한 문제   </th>
-    <th>   작성한 파일  </th>
+    <th>   SOLVE   </th>
+    <th>   FILE  </th>
     <th>   남은 개수  </th>
+    <th>   Money   </th>
     <th>   언어별 통계   </th>
 """
     
@@ -109,6 +113,7 @@ def make_read_me(code_cnt_info, total_code_num, language_cnt, total_push_cnt):
         <td> {total_code_num[i]} </td>
         <td> {code_cnt_info[i]} </td>
         <td> {100 - total_code_num[i]} </td>
+        <td> {-1 * (100 - total_code_num[i]) * 1000} </td>
         <td> Python : {language_cnt[i][0]}&nbsp&nbsp&nbsp&nbspJava : {language_cnt[i][1]}&nbsp&nbsp&nbsp&nbspC : {language_cnt[i][2]}&nbsp&nbsp&nbsp&nbsp&nbspC++ : {language_cnt[i][3]}&nbsp&nbsp&nbsp&nbsp&nbspC# : {language_cnt[i][4]}</td>
     </tr>"""
         

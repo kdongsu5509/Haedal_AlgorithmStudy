@@ -1,1 +1,3 @@
-print("창석")
+def solution(arr):
+    arr.sort()
+    return arr

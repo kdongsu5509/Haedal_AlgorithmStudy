@@ -4,50 +4,60 @@
 - 벌금은 책걸이 행사 때 사용됩니다.
 <br><br><br>
 
+
 ## 참여자 별 현황 한 눈에 보기
 <table>
     <th>   이름   </th>
-    <th>   해결한 문제   </th>
-    <th>   작성한 파일  </th>
+    <th>   SOLVE   </th>
+    <th>   FILE  </th>
     <th>   남은 개수  </th>
+    <th>   Money   </th>
     <th>   언어별 통계   </th>
   <tr>
         <td> 고동수 </td>
-        <td> 18 </td>
-        <td> 25 </td>
-        <td> 82 </td>
-        <td> Python : 18&nbsp&nbsp&nbsp&nbspJava : 7&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+        <td> 26 </td>
+        <td> 41 </td>
+        <td> 74 </td>
+        <td> -74000 </td>
+        <td> Python : 26&nbsp&nbsp&nbsp&nbspJava : 12&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 김민승 </td>
-        <td> 0 </td>
-        <td> 0 </td>
-        <td> 100 </td>
-        <td> Python : 0&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+        <td> 14 </td>
+        <td> 14 </td>
+        <td> 86 </td>
+        <td> -86000 </td>
+        <td> Python : 14&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 남현호 </td>
         <td> 0 </td>
         <td> 0 </td>
         <td> 100 </td>
+        <td> -100000 </td>
         <td> Python : 0&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 류정민 </td>
         <td> 1 </td>
         <td> 1 </td>
         <td> 99 </td>
+        <td> -99000 </td>
         <td> Python : 1&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 이창석 </td>
-        <td> 0 </td>
-        <td> 0 </td>
-        <td> 100 </td>
-        <td> Python : 0&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+        <td> 5 </td>
+        <td> 5 </td>
+        <td> 95 </td>
+        <td> -95000 </td>
+        <td> Python : 5&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 최수연 </td>
-        <td> 0 </td>
-        <td> 0 </td>
-        <td> 100 </td>
-        <td> Python : 0&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+        <td> 9 </td>
+        <td> 10 </td>
+        <td> 91 </td>
+        <td> -91000 </td>
+        <td> Python : 10&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr></table>
+<br>
+총 Push 횟수 : 69회
 
 # 업로드 방법
 ### 1. 파일명

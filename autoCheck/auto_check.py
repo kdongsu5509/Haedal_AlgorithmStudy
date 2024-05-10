@@ -3,6 +3,24 @@ from datetime import datetime
 import os
 import re
 
+
+def change_total_push_cnt():
+    total_push_cnt = 0
+    try:
+        with open("total_push_cnt.txt", 'r+') as file:
+            content = file.readline().strip()
+            if content:
+                total_push_cnt = int(content)
+            total_push_cnt += 1
+            file.seek(0)
+            file.write(str(total_push_cnt) + "\n")
+    except FileNotFoundError:
+        print("파일을 찾을 수 없습니다.")
+    except Exception as e:
+        print("오류 발생:", e)
+
+    return total_push_cnt
+
 # 각자 해결한 문제의 개수와 제출한 파일의 개수를 세어서 리스트로 반환하는 함수입니다.
 def count_problem_source_code(): 
     #6명의 정보를 저장할 2차원 배열입니다.
@@ -45,6 +63,7 @@ def count_problem_source_code():
                 cpp_cnt += 1
 
             # 파일 이름에서 확장자를 제거합니다.
+        
         language_cnt.append([python_cnt, java_cnt, c_cnt, cpp_cnt, csharp_cnt])
 
         # 각 학생별로 제출한 코드의 개수를 저장할 리스트입니다.
@@ -57,6 +76,8 @@ def count_problem_source_code():
                 temp_code_list.append(code_list[i].replace('.py', "").replace('.java', "").replace('.cs', "").replace('.c', "").replace('.cpp', ""))
         temp_set = set(temp_code_list)
         # 중복된 코드를 제거한 개수를 저장합니다.
+
+        ts_len = len(temp_set) if len(temp_set) <= 100 else 100
         total_code_cnt.append(len(temp_set))
 
     print(code_cnt_info)
@@ -65,7 +86,7 @@ def count_problem_source_code():
     return code_cnt_info, total_code_cnt, language_cnt
 
 # README.md 파일을 업데이트하는 함수입니다.
-def make_read_me(code_cnt_info, total_code_num, language_cnt):
+def make_read_me(code_cnt_info, total_code_num, language_cnt, total_push_cnt):
     name_list = ['고동수', '김민승', '남현호', '류정민', '이창석', '최수연']
     base1 = f"""## 📚2024-1 해달 알고리즘 스터디!📚
 - 2024년 7월 31일까지 100문제를 모두 해결하는 것을 목표로 합니다.
@@ -73,12 +94,14 @@ def make_read_me(code_cnt_info, total_code_num, language_cnt):
 - 벌금은 책걸이 행사 때 사용됩니다.
 <br><br><br>
 
+
 ## 참여자 별 현황 한 눈에 보기
 <table>
     <th>   이름   </th>
-    <th>   해결한 문제   </th>
-    <th>   작성한 파일  </th>
+    <th>   SOLVE   </th>
+    <th>   FILE  </th>
     <th>   남은 개수  </th>
+    <th>   Money   </th>
     <th>   언어별 통계   </th>
 """
     
@@ -90,10 +113,13 @@ def make_read_me(code_cnt_info, total_code_num, language_cnt):
         <td> {total_code_num[i]} </td>
         <td> {code_cnt_info[i]} </td>
         <td> {100 - total_code_num[i]} </td>
+        <td> {-1 * (100 - total_code_num[i]) * 1000} </td>
         <td> Python : {language_cnt[i][0]}&nbsp&nbsp&nbsp&nbspJava : {language_cnt[i][1]}&nbsp&nbsp&nbsp&nbspC : {language_cnt[i][2]}&nbsp&nbsp&nbsp&nbsp&nbspC++ : {language_cnt[i][3]}&nbsp&nbsp&nbsp&nbsp&nbspC# : {language_cnt[i][4]}</td>
     </tr>"""
         
     base2 = f"""</table>
+<br>
+총 Push 횟수 : {total_push_cnt}회
 
 # 업로드 방법
 ### 1. 파일명
@@ -126,9 +152,10 @@ def make_read_me(code_cnt_info, total_code_num, language_cnt):
 
 # README.md 파일을 업데이트하는 함수입니다.
 def update_readme_md():
+    total_push_cnt = change_total_push_cnt()
     code_cnt_info, total_code_num, language_cnt = count_problem_source_code() #반환은 list로 받는다.
 
-    readme = make_read_me(code_cnt_info, total_code_num, language_cnt)
+    readme = make_read_me(code_cnt_info, total_code_num, language_cnt, total_push_cnt)
 
     return readme
 

@@ -14,4 +14,4 @@ def solution(a):
     for b, s in enumerate(score):
         if s == maxs:
             ms.append(b+1)
-    return ms
+    return ms 

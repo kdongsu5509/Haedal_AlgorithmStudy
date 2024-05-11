@@ -15,11 +15,11 @@
     <th>   언어별 통계   </th>
   <tr>
         <td> 고동수 </td>
-        <td> 26 </td>
-        <td> 41 </td>
-        <td> 74 </td>
-        <td> -74000 </td>
-        <td> Python : 26&nbsp&nbsp&nbsp&nbspJava : 12&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+        <td> 27 </td>
+        <td> 42 </td>
+        <td> 73 </td>
+        <td> -73000 </td>
+        <td> Python : 27&nbsp&nbsp&nbsp&nbspJava : 12&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 김민승 </td>
         <td> 14 </td>
@@ -57,7 +57,7 @@
         <td> Python : 10&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr></table>
 <br>
-총 Push 횟수 : 70회
+총 Push 횟수 : 71회
 
 # 업로드 방법
 ### 1. 파일명

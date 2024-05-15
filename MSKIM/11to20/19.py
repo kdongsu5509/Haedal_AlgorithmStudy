@@ -10,7 +10,7 @@ def solution(string_list,query_list):
     hash_list=[polynomial_hash(str) for str in string_list]
 
     result=[]
-    for query_list in query_list:
+    for query in query_list:
         query_hash=polynomial_hash(query)
         if query_hash in hash_list:
             result.append(True)

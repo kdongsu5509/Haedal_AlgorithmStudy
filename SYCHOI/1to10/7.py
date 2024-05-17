@@ -34,6 +34,7 @@ def solution(dirs) :
 
 
 
+#TEST 코드입니다. 주석을 풀어서 확인해보세요
 # print(solution('ULURRDLLU'))
 # print(solution('LULLLLLLU'))
 # print(solution('LURRDLLURRDLLURRDLLURRDL'))

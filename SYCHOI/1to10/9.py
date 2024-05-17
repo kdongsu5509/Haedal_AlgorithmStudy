@@ -14,6 +14,7 @@ def solution(dec) :
     return binary
 
 
-print(solution(10))
-print(solution(27))
-print(solution(12345))
+#TEST 코드입니다. 주석을 풀어서 확인해보세요
+# print(solution(10))
+# print(solution(27))
+# print(solution(12345))

@@ -33,5 +33,6 @@ def solution(N, stages) :
     return result
 
 
-print(solution(5, [2,1,2,6,2,4,3,3]))  # [3,4,2,1,5]
-print(solution(4, [4,4,4,4,4]))        # [4,1,2,3]
+#TEST 코드입니다. 주석을 풀어서 확인해보세요
+# print(solution(5, [2,1,2,6,2,4,3,3]))  # [3,4,2,1,5]
+# print(solution(4, [4,4,4,4,4]))        # [4,1,2,3]

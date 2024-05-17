@@ -20,5 +20,6 @@ def solution(answers) :
     return result
     
 
-print(solution([1,2,3,4,5]))
-print(solution([1,3,2,4,2]))
+#TEST 코드입니다. 주석을 풀어서 확인해보세요
+# print(solution([1,2,3,4,5]))
+# print(solution([1,3,2,4,2]))

@@ -1,1 +1,3 @@
-pend(rmd)
+
+print(solution("()()"))
+print(solution(')'))

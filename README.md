@@ -22,18 +22,18 @@
         <td> Python : 27&nbsp&nbsp&nbsp&nbspJava : 13&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 김민승 </td>
-        <td> 21 </td>
-        <td> 21 </td>
-        <td> 79 </td>
-        <td> -79000 </td>
-        <td> Python : 21&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+        <td> 22 </td>
+        <td> 22 </td>
+        <td> 78 </td>
+        <td> -78000 </td>
+        <td> Python : 22&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 남현호 </td>
-        <td> 1 </td>
-        <td> 1 </td>
-        <td> 99 </td>
-        <td> -99000 </td>
-        <td> Python : 1&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+        <td> 2 </td>
+        <td> 2 </td>
+        <td> 98 </td>
+        <td> -98000 </td>
+        <td> Python : 2&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 류정민 </td>
         <td> 4 </td>
@@ -50,14 +50,14 @@
         <td> Python : 5&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 최수연 </td>
-        <td> 12 </td>
-        <td> 13 </td>
-        <td> 88 </td>
-        <td> -88000 </td>
-        <td> Python : 13&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+        <td> 14 </td>
+        <td> 16 </td>
+        <td> 86 </td>
+        <td> -86000 </td>
+        <td> Python : 16&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr></table>
 <br>
-총 Push 횟수 : 85회
+총 Push 횟수 : 88회
 
 # 업로드 방법
 ### 1. 파일명

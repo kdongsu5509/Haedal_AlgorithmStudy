@@ -1,40 +1,36 @@
-inorder = []
-postorder = []
-preorder = []
-
 def solution(arr):
-    arr = [None] + arr
-    global inorder, postorder, preorder
-    inorder = inorder_traversal(arr, 1)
-    postorder = postorder_tr(arr, 1)
-    preorder = preorder_tr(arr, 1)
+    a = preorder(arr, 0)
+    b = inorder(arr, 0)
+    c = postorder(arr, 0)
 
-    return [preorder, inorder, postorder]
-    # return [inorder, postorder, preorder]
+    return [a, b, c]
 
-def inorder_traversal(arr, root):
-    if root >= len(arr) or arr[root] is None:
-        return []
-    left = inorder_traversal(arr, root * 2)
-    center = [arr[root]]
-    right = inorder_traversal(arr, root * 2 + 1)
-    return left + center + right
 
-def postorder_tr(arr, root):
-    if root >= len(arr) or arr[root] is None:
-        return []
-    left = postorder_tr(arr, root * 2)
-    right = postorder_tr(arr, root * 2 + 1)
-    center = [arr[root]]
-    return left + right + center
+def preorder(arr, idx):
+    temp = ""
+    if idx < len(arr):
+        temp += str(arr[idx]) + " "
+        temp += preorder(arr, idx * 2 + 1)
+        temp += preorder(arr, idx * 2 + 2)
+    return temp
 
-def preorder_tr(arr, root):
-    if root >= len(arr) or arr[root] is None:
-        return []
-    center = [arr[root]]
-    left = preorder_tr(arr, root * 2)
-    right = preorder_tr(arr, root * 2 + 1)
-    return center + left + right
 
-# Test cases
-print(solution([1,2,3,4,5,6,7]))
+def inorder(arr, idx):
+    temp = ""
+    if idx < len(arr):
+        temp += inorder(arr, idx * 2 + 1)
+        temp += str(arr[idx]) + " "
+        temp += inorder(arr, idx * 2 + 2)
+    return temp
+
+def postorder(arr, idx):
+    temp = ""
+    if idx < len(arr):
+        temp += postorder(arr, idx * 2 + 1)
+        temp += postorder(arr, idx * 2 + 2)
+        temp += str(arr[idx]) + " "
+    return temp
+
+
+l = solution([1, 2, 3, 4, 5, 6, 7])
+print(l)

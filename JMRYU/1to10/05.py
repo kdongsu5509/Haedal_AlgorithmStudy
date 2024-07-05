@@ -4,4 +4,3 @@ def solution(arr1, arr2):
                for col in arr2_transposed = list(zip(*arr2))] for row in arr1]
 
     return result
-

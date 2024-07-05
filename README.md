@@ -1,6 +1,6 @@
 ## 📚2024-1 해달 알고리즘 스터디!📚
-- 2024년 <div style="color:red">8월 31일</div>까지 100문제를 모두 해결하는 것을 목표로 합니다.
-- <div style="color:red">8월 31일</div>에 못 푼 문제 1개당 1,000원의 벌금이 있습니다.
+- 2024년 <span style="color: red;">8월 31일</span>까지 100문제를 모두 해결하는 것을 목표로 합니다.
+- <span style="color: red;">8월 31일</span>에 못 푼 문제 1개당 1,000원의 벌금이 있습니다.
 - 벌금은 책걸이 행사 때 사용됩니다.
     -메뉴는 차후 정하겠습니다.
 <br><br><br>
@@ -58,7 +58,7 @@
         <td> Python : 16&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr></table>
 <br>
-총 Push 횟수 : 104회
+총 Push 횟수 : 105회
 
 # 업로드 방법
 ### 1. 파일명
@@ -74,6 +74,7 @@
 -     `git pull` // 깃허브에 있는 파일을 본인 컴퓨터로 가져옵니다.
 -     `git add .` // 본인 컴퓨터에 있는 파일을 로컬 Git에 업로드 합니다.
 -     `git commit -m "message"` //메세지를 추가하여 커밋합니다.
+
         - **commit message 통일시켜주세요! **
             -새로운 문제 코드 업로드 시
                 - 예시 : `git commit -m "ADD : 1.py`

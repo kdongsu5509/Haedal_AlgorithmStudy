@@ -1,6 +1,6 @@
 ## 📚2024-1 해달 알고리즘 스터디!📚
-- 2024년 **8월 31일**까지 100문제를 모두 해결하는 것을 목표로 합니다.
-- **8월 31일**에 못 푼 문제 1개당 1,000원의 벌금이 있습니다.
+- 2024년 7월 31일까지 100문제를 모두 해결하는 것을 목표로 합니다.
+- 7월 31일에 못 푼 문제 1개당 1,000원의 벌금이 있습니다.
 - 벌금은 책걸이 행사 때 사용됩니다.
 <br><br><br>
 
@@ -57,7 +57,7 @@
         <td> Python : 16&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr></table>
 <br>
-총 Push 횟수 : 101회
+총 Push 횟수 : 102회
 
 # 업로드 방법
 ### 1. 파일명
@@ -73,13 +73,6 @@
 -     `git pull` // 깃허브에 있는 파일을 본인 컴퓨터로 가져옵니다.
 -     `git add .` // 본인 컴퓨터에 있는 파일을 로컬 Git에 업로드 합니다.
 -     `git commit -m "message"` //메세지를 추가하여 커밋합니다.
-    **commit message 통일시켜주세요! **
-    - 새로운 문제 코드 업로드 시
-        - 예시 : `git commit -m "ADD : 1.py`
-    - 기존 파일 수정 후 재업로드 시
-        - 예시 : `git commit -m "UPDATE : one.java`
-    - 그럴 일은.. 없겠지만 삭제 시
-        - 예시 : `git commit -m "DEL : 1.c because ~~"`
 -     `git push` // 깃허브에 업로드 합니다
 - 위의 방법대로 업로드 하지 않을 경우 README.md가 정상 업데이트 되지 않으니 다들 부탁드려요~
 

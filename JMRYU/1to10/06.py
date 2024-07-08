@@ -16,4 +16,4 @@ def solution(N, stage):
 
     result = sorted(range(1, N + 1), key=lambda x: fail[x], reverse=True)
     
-    return result
+    return result 

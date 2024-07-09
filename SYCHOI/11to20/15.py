@@ -12,4 +12,5 @@ def solution(N, K) :
     return answer
 
 
-print(solution(5, 2))
+#TEST 코드입니다. 주석을 풀어서 확인해보세요
+# print(solution(5, 2))

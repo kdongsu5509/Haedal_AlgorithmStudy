@@ -4,5 +4,5 @@ def solution(arr):
     return arr_set
 
 
-# print(solution([4, 2, 2, 1, 3, 4]))       # [4, 3, 2, 1]
-# print(solution([2, 1, 1, 3, 2, 5, 4]))    # [5, 4, 3, 2, 1]
+# print(solution([4, 2, 2, 1, 3, 4]))       
+# print(solution([2, 1, 1, 3, 2, 5, 4]))    

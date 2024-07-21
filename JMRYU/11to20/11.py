@@ -7,4 +7,4 @@ def solution(s):
         else:
             stack.append(i)
 
-    return int(not stack) 
+    return int(not stack)  

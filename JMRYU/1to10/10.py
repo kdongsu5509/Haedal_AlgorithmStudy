@@ -11,7 +11,7 @@ def is_valid(s):
     return stack == []
 
 def solution(s):
-    ans = 0
+    ans = 0 
     n = len(s)
     
     for i in range(n):

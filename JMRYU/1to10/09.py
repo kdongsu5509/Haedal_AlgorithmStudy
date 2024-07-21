@@ -7,4 +7,4 @@ def solution(dec):
    
     bin = "".join(stack[::-1])
 
-    return bin
+    return bin 

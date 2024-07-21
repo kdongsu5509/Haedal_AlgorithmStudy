@@ -13,4 +13,4 @@ def solution(s):
     if stack:
         return False
     else:
-        return True
+        return True 

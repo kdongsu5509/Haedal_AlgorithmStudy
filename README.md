@@ -58,7 +58,7 @@
         <td> Python : 24&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr></table>
 <br>
-총 Push 횟수 : 118회
+총 Push 횟수 : 119회
 
 # 업로드 방법
 ### 1. 파일명

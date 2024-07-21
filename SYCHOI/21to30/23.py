@@ -1,16 +1,17 @@
 def solution(genres, plays) :
-    genDict = {}
-    plyDict = {}
+    genDict = {}        # key : 장르명, value(play, i) : 곡 별 재생수 & 곡의 고유번호
+    plyDict = {}        # key : 장르명, value : 해당 장르 곡의 총 재생수
     result = []
 
     for i in range(len(genres)) :
-        genre = genres[i]
-        play = plays[i]
+        # 딕셔너리 key값에 넣으려면 변수로 선언해야함
+        genre = genres[i]   
+        play = plays[i]  
 
         if genre not in genDict :
-            genDict[genre] = []
-            plyDict[genre] = 0
-        genDict[genre].append((play, i))        # 해당 장르인 곡 각각의 재생수, 번호(play, i)를 item으로 입력
+            genDict[genre] = []                 # 파이썬은 키에 해당하는 값이 없는 경우 반드시 초기화값을 명시해야함
+            plyDict[genre] = 0                  # 
+        genDict[genre].append((play, i))        # 해당 장르인 곡 각각의 재생수, 번호(play, i)를 튜플로 입력
         plyDict[genre] += play                  # 해당 장르 곡의 총 재생수 
 
     # sorted_plyDict는 딕셔너리가 아닌 리스트 => items() 사용 불가
@@ -29,4 +30,4 @@ def solution(genres, plays) :
 
 
 #TEST 코드입니다. 주석을 풀어서 확인해보세요
-# print(solution(["classic", "pop", "classic", "classic", "pop"], [500, 600, 150, 800, 2500]))
+print(solution(["classic", "pop", "classic", "classic", "pop"], [500, 600, 150, 800, 2500]))

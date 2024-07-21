@@ -13,3 +13,4 @@ def solution(prices):
         result[idx] = len(prices) - 1 - idx 
 
     return result
+ 

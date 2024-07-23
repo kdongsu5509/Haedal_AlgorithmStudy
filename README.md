@@ -17,31 +17,31 @@
   <tr>
         <td> 고동수 </td>
         <td> 28 </td>
-        <td> 45 </td>
+        <td> 44 </td>
         <td> 72 </td>
         <td> -72000 </td>
         <td> Python : 28&nbsp&nbsp&nbsp&nbspJava : 14&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 김민승 </td>
-        <td> 26 </td>
-        <td> 26 </td>
-        <td> 74 </td>
-        <td> -74000 </td>
-        <td> Python : 26&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+        <td> 27 </td>
+        <td> 27 </td>
+        <td> 73 </td>
+        <td> -73000 </td>
+        <td> Python : 27&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 남현호 </td>
-        <td> 3 </td>
-        <td> 3 </td>
-        <td> 97 </td>
-        <td> -97000 </td>
-        <td> Python : 3&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+        <td> 4 </td>
+        <td> 4 </td>
+        <td> 96 </td>
+        <td> -96000 </td>
+        <td> Python : 4&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 류정민 </td>
-        <td> 7 </td>
-        <td> 7 </td>
-        <td> 93 </td>
-        <td> -93000 </td>
-        <td> Python : 7&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+        <td> 12 </td>
+        <td> 12 </td>
+        <td> 88 </td>
+        <td> -88000 </td>
+        <td> Python : 12&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 이창석 </td>
         <td> 5 </td>
@@ -51,14 +51,14 @@
         <td> Python : 5&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 최수연 </td>
-        <td> 18 </td>
-        <td> 20 </td>
-        <td> 82 </td>
-        <td> -82000 </td>
-        <td> Python : 20&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+        <td> 24 </td>
+        <td> 26 </td>
+        <td> 76 </td>
+        <td> -76000 </td>
+        <td> Python : 26&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr></table>
 <br>
-총 Push 횟수 : 111회
+총 Push 횟수 : 123회
 
 # 업로드 방법
 ### 1. 파일명

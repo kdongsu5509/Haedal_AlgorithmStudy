@@ -51,14 +51,14 @@
         <td> Python : 5&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 최수연 </td>
-        <td> 24 </td>
-        <td> 26 </td>
-        <td> 76 </td>
-        <td> -76000 </td>
-        <td> Python : 26&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+        <td> 25 </td>
+        <td> 27 </td>
+        <td> 75 </td>
+        <td> -75000 </td>
+        <td> Python : 27&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr></table>
 <br>
-총 Push 횟수 : 124회
+총 Push 횟수 : 125회
 
 # 업로드 방법
 ### 1. 파일명

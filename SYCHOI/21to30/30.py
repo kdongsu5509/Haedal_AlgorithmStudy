@@ -52,4 +52,4 @@ def solution(maps) :
     
 #TEST 코드입니다. 주석을 풀어서 확인해보세요
 print(solution(["SOOOL", "XXXXO", "OOOOO", "OXXXX", "OOOOE"]))
-# print(solution(["LOOXS", "OOOOX", "OOOOO", "OOOOO", "EOOOO"]))
+print(solution(["LOOXS", "OOOOX", "OOOOO", "OOOOO", "EOOOO"]))

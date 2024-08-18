@@ -9,4 +9,4 @@ def solution(N, K):
 
       que.popleft()
     return que[0]
-print(solution(5,2))
+print(solution(5,2)) 

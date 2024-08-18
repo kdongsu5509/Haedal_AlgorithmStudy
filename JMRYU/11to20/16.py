@@ -17,4 +17,4 @@ def solution(progresses, speeds):
             days.popleft()
         answer.append(count)
 
-    return answer
+    return answer 
